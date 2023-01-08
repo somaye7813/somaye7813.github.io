@@ -278,7 +278,7 @@ p {
 /******** LEFT SIDE SECTION ********/
 
 .about {
-    background: url('../images/ava.jpg') no-repeat center center;
+    background: url('../images/pic.jpg') no-repeat center center;
     background-size: cover;
     background-color: #1b1b1b;
 }
@@ -364,7 +364,7 @@ p {
 /******** HEADER SECTION ********/
 
 .header {
-  background: url('../images/ava.jpg') no-repeat center center;
+  background: url('../images/pic.jpg') no-repeat center center;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -690,7 +690,7 @@ p {
 /******** LOGOS SECTION START ********/
 
 .logos {
-    background: url('../images/client.jpg') no-repeat center center;
+    background: url('../images/brand.jpg') no-repeat center center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
