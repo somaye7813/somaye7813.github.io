@@ -63,7 +63,7 @@ body {
     left: 0;
     height: 100%;
     width: 100%;
-    background: #0C0C0C;
+    background: #45dbc8;
     z-index: 6;
     overflow: hidden;
 }
@@ -293,10 +293,10 @@ p {
 
 .about h3 {
     margin-top: 20px;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 24pt;
     letter-spacing: 0pt;
-    color: #fff;
+    color: #212529;
 }
 
 .about .btn-default {
@@ -391,7 +391,7 @@ p {
     letter-spacing: 0pt;
     line-height: 40pt;
     font-weight: 700;
-    color: #fff;
+    color: #212529;
 }
 
 
@@ -400,7 +400,7 @@ p {
 .info {
     margin: 0;
     padding: 170px 0 210px;
-    background-color: #0a0a0a;
+    background-color: #45DBC8;
 }
 
 .info h2 {
@@ -479,7 +479,7 @@ p {
 /******** RESUME SECTION START ********/
 
 .resume {
-    background-color: #0a0a0a;
+    background-color: #0081C9;
 }
 
 .resume h2 {
@@ -534,7 +534,7 @@ p {
 /******** SKILLS SECTION START ********/
 
 .skill {
-    background-color: #0a0a0a;
+    background-color: #39B5E0;
     padding: 150px 0 170px;
 }
 
@@ -587,7 +587,7 @@ p {
 /******** SERVICES SECTION START ********/
 
 .service {
-    background-color: #0a0a0a;
+    background-color: #0081C9;
     padding-bottom: 200px;        
 }
 
@@ -663,7 +663,7 @@ p {
 /******** CLIENTS SECTION START ********/
 
 .clients {
-	background-color: #0a0a0a;
+	background-color: #0081C9;
 }
 
 .clients h2 {
@@ -711,7 +711,7 @@ p {
 /******** REVIEW SECTION START ********/
 
 .review {
-    background-color: #1b1b1b;
+    background-color: #FFC93C;
 }
  
 .swiper-container {
@@ -722,7 +722,7 @@ p {
 .swiper-slide {
     padding: 50px 0px;
     text-align: center;
-    background: #1b1b1b;
+    background: #FFC93C;
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -779,7 +779,7 @@ p {
 /******** CONTACT SECTION START ********/
 
 .contact {
-    background-color: #0a0a0a;
+    background-color: #0081C9;
     width: auto;
     padding: 150px 0;
 }
@@ -817,7 +817,7 @@ p {
 }
 
 .form {
-    background-color: #0a0a0a;
+    background-color: #45dbc8;
     padding-top: 170px;
     padding-bottom: 0px;
 }
@@ -842,9 +842,9 @@ p {
     padding: 15px 15px;
     border: 0;
     font-size: 14pt;
-    background-color: #111111;
-    color: #fff;
-    border-bottom: 2px solid #1b1b1b;
+    background-color: #0081C9;
+    color: #1b1b1b;
+    border-bottom: 2px solid #0081C9;
 }
 
 .form .text:focus {
@@ -861,9 +861,9 @@ p {
     padding: 15px 15px;
     border: 0;
     font-size: 10pt;
-    background-color: #111111;
+    background-color: #0081C9;
     color: #dcdcdc;
-    border-bottom: 2px solid #1b1b1b; 
+    border-bottom: 2px solid #0081C9; 
 }
 
 .form .email:focus {
@@ -880,9 +880,9 @@ p {
     padding: 15px 15px;
     border: 0;
     font-size: 10pt;
-    background-color: #111111;
+    background-color: #0081C9;
     color: #dcdcdc;
-    border-bottom: 2px solid #1b1b1b;
+    border-bottom: 2px solid #0081C9;
 }
 
 .form .msg:focus {
@@ -898,7 +898,7 @@ p {
     font-size: 13pt;
     letter-spacing: 0pt;
     color: #fff;
-    background-color: #B68E52;
+    background-color: #FFC93C;
     border-radius: 0px;
     padding: 15px 40px;
     margin-top: 50px;
@@ -907,8 +907,8 @@ p {
 /******** FOOTER SECTION START ********/
 
 footer {
-    background-color: #1b1b1b;
-    border-bottom: 8px solid #B68E52;
+    background-color: #5BC0F8;
+    border-bottom: 8px solid #FFC93C;
 }
 
 footer h4 {
