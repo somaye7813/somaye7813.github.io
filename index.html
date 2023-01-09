@@ -1,668 +1,596 @@
 <!DOCTYPE html>
-<html lang="fa_IR">
-   <head>
-      <meta charset="UTF-8" />
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>my-site</title>
-      <!-- Fonts and Css -->
-      <link rel="stylesheet" href="css/swiper.min.css">
-      <link rel="stylesheet" href="css/jquery.animatedheadline.css">
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="css/font-awesome.min.css">
-      <link rel="stylesheet" href="css/magnific-popup.css">
-      <link rel="stylesheet" type="text/css" href="css/component.css" />
-      <script src="js/modernizr.custom.js"></script>
-   </head>
-   <body>
-      <!-- Preloader -->
+<html lang="en">
 
-      <div class="preloader-wrap">
-         <div class="preloader">
-            <div class="lines">
-               <div class="line line-1"></div>
-               <div class="line line-2"></div>
-               <div class="line line-3"></div>
+<head>
+    <meta charset="utf-8">
+    <title>my website</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">my</span>resume</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Quality</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#testimonial" class="nav-item nav-link">Review</a>
+                <a href="#blog" class="nav-item nav-link">Blog</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
             </div>
-         </div>
-      </div>
-
-      <!-- Main Wrap Section -->
-
-      <div class="wrap">
-         <div id="bl-main" class="bl-main">
-            <section class="about">
-               <div class="bl-box">
-                  <canvas id="particles"></canvas>
-                  <div class="container">
-                     <div class="row">
-                        <div class="info-wrapper">
-                           <div class="col-md-12 text-center">
-                              <h3>وب سایت من</h3>
-                              <a class="btn btn-default" href="#about" role="button">درباره من</a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div class="bl-content">
-                  <div class="header" id="header">
-                     <div class="container">
-                        <div class="row">
-                           <div class="header-wrapper">
-                              <div class="col-md-12 col-xs-12 text-center">
-                                 <h1>وب سایت شخصی من</h1>
-                                 <p class="title">طراح گرافیک</p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-
-                  <!-- About Section --> 
-
-                  <div class="info" id="info">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-lg-6 col-md-12 col-xs-12">
-                              <h2 class="title">درباره من</h2>
-                              <hr class="line">
-                              <div class="about-us-txt">
-                                 <p>
-                                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
-                                 </p>
-                              </div>
-                              <div class="about-icon">
-                                 <ul>
-                                    <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                                     
-                                    <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                                     
-                                    <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-                                     
-                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                                     
-                                 </ul>
-                              </div>
-                           </div>
-                           <div class="col-lg-6 col-md-12 col-xs-12">
-                              <div class="img-wrap">
-                                 <div class="about-us-img">
-                                    <img src="images/pic2.png" class="img-fluid" alt="about images">
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-
-                  <!-- Resume Section -->
-
-                  <div class="resume" id="resume">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-12 col-xs-12 text-center">
-                              <h2 class="title">تاریخچه</h2>
-                              <hr class="line">
-                              <p class="sm-title">۱۰ سال تجربه</p>
-                           </div>
-
-                           <div class="col-md-1 col-xs-12"></div>
-                           <div class="col-md-3 col-xs-12">
-                              <p class="year">۱۳۹۴ - ۱۳۹۳</p>
-                           </div>
-                           <div class="col-md-8 col-xs-12">
-                              <h5>طراح گرافیک و پشتیبان سایت زرشک و زعفران</h5>
-                              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
-                              <hr>
-                           </div>
-                           <div class="col-md-1 col-xs-12"></div>
-                           <div class="col-md-3 col-xs-12">
-                              <p class="year">۱۳۹۶ - ۱۳۹۵</p>
-                           </div>
-                           <div class="col-md-8 col-xs-12">
-                              <h5>سئو وب سایت فروشگاهی وردپرسی</h5>
-                              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
-                              <hr>
-                           </div>
-                           <div class="col-md-1 col-xs-12"></div>
-                           <div class="col-md-3 col-xs-12">
-                              <p class="year">۱۳۹۸ - ۱۳۹۷</p>
-                           </div>
-                           <div class="col-md-8 col-xs-12">
-                              <h5>کار با فیگما و ادوبی دیزاین در ui&ux</h5>
-                              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
-                              <hr>
-                           </div>
-                           <div class="col-md-1 col-xs-12"></div>
-                           <div class="col-md-3 col-xs-12">
-                              <p class="year">۱۴۰۱ - ۱۴۰۰</p>
-                           </div>
-                           <div class="col-md-8 col-xs-12">
-                              <h5>کار با html & css</h5>
-                              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
-                              <hr>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-
-                  <!-- Skills Section -->
-
-                  <div class="skill" id="skill">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-12 col-xs-12 text-center">
-                              <h2 class="title">تخصص</h2>
-                              <hr class="line">
-                              <p class="sm-title">مهارت های عالی
-                              </p>
-                           </div>
-                           <div class="col-md-6 col-xs-12">
-                              <div class="single_progress_bar">
-                                 <p>DESIGN - ۹۰%</p>
-                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
-                                       <span class="sr-only">60% Complete</span>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="single_progress_bar">
-                                 <p>GAMIFICATION - ۶۰%</p>
-                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-                                       <span class="sr-only">60% Complete</span>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="single_progress_bar">
-                                 <p>WORDPRESS - ۸۰%</p>
-                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                       <span class="sr-only">60% Complete</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-6 col-xs-12">
-                              <div class="single_progress_bar">
-                                 <p>UI/UX - ۷۵%</p>
-                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
-                                       <span class="sr-only">60% Complete</span>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="single_progress_bar">
-                                 <p>BACKEND - ۱۰%</p>
-                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
-                                       <span class="sr-only">8% Complete</span>
-                                    </div>
-                                 </div>
-                              </div>
-                              <div class="single_progress_bar">
-                                 <p>FRONTEND - ۶۵%</p>
-                                 <div class="progress">
-                                    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 95%;">
-                                       <span class="sr-only">30% Complete</span>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                           <div class="col-md-12 col-xs-12">
-                              <div class="margin"></div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-
-                  <!-- Services Section -->
-
-                  <div class="service" id="service">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-12 col-xs-12 text-center">
-                              <h2 class="title">خدمات</h2>
-                              <hr class="line">
-                              <p class="sm-title">کارهایی که انجام شان را دوست دارم</p>
-                           </div>
-                           <div class="col-lg-4 col-md-4 col-xs-12">
-                              <div class="service-wrap">
-                                 <i class="fa fa-pencil" aria-hidden="true"></i>
-                                 <h4>طراحی</h4>
-                                 <p class="main-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                 </p>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-md-4 col-xs-12">
-                              <div class="service-wrap">
-                                 <i class="fa fa-laptop" aria-hidden="true"></i>
-                                 <h4>برنامه نویسی و توسعه</h4>
-                                 <p class="main-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                 </p>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-md-4 col-xs-12">
-                              <div class="service-wrap">
-                                 <i class="fa fa-cubes" aria-hidden="true"></i>
-                                 <h4>بازاریابی</h4>
-                                 <p class="main-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                 </p>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-md-4 col-xs-12">
-                              <div class="service-wrap">
-                                 <i class="fa fa-gamepad" aria-hidden="true"></i>
-                                 <h4>بازی</h4>
-                                 <p class="main-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                 </p>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-md-4 col-xs-12">
-                              <div class="service-wrap">
-                                 <i class="fa fa-bookmark" aria-hidden="true"></i>
-                                 <h4>نام برند</h4>
-                                 <p class="main-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                 </p>
-                              </div>
-                           </div>
-                           <div class="col-lg-4 col-md-4 col-xs-12">
-                              <div class="service-wrap">
-                                 <i class="fa fa-hand-peace-o" aria-hidden="true"></i>
-                                 <h4>پشتیبانی</h4>
-                                 <p class="main-text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.
-                                 </p>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+            <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
+        </div>
+    </nav>
+    <!-- Navbar End -->
 
 
-                  <!-- Clients Title Section -->
-
-                  <div class="clients" id="clients">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-12 col-xs-12 text-center">
-                              <h2 class="title">مشتریان منتخب</h2>
-                              <hr class="line">
-                              <p class="sm-title">مشتریان وفادار ما</p>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-
-                  <!-- Clients Logos Section -->
-
-                  <div class="logos" id="logos">
-                     <div class="container">
-                        <div class="row text-center">
-                           <div class="col-md-3 col-xs-12">
-                              <div class="client-wrap"> 
-                                 <img src="images/logo1.png" alt="client">
-                              </div>
-                           </div>
-                           <div class="col-md-3 col-xs-12">
-                              <div class="client-wrap">  
-                                 <img src="images/logo2.png" alt="client">
-                              </div>
-                           </div>
-                           <div class="col-md-3 col-xs-12">
-                              <div class="client-wrap">  
-                                 <img src="images/logo3.png" alt="client">
-                              </div>
-                           </div>
-                           <div class="col-md-3 col-xs-12">
-                              <div class="client-wrap">  
-                                 <img src="images/logo4.png" alt="client">
-                              </div>
-                           </div>
-                           <div class="col-md-3 col-xs-12">
-                              <div class="client-wrap">  
-                                 <img src="images/logo4.png" alt="client">
-                              </div>
-                           </div>
-                           <div class="col-md-3 col-xs-12">
-                              <div class="client-wrap">  
-                                 <img src="images/logo4.png" alt="client">
-                              </div>
-                           </div>
-                           <div class="col-md-3 col-xs-12">
-                              <div class="client-wrap">  
-                                 <img src="images/logo5.png" alt="client">
-                              </div>
-                           </div>
-                           <div class="col-md-3 col-xs-12">
-                              <div class="client-wrap">  
-                                 <img src="images/logo6.png" alt="client">
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-
-                  <!-- Clients Review Section -->
-
-                  <div class="review">
-                     <div class="swiper-container">
-                        <div class="swiper-wrapper">
-                           <div class="swiper-slide">
-                              <div class="review-wrap">
-                                 <img src="images/user-01.jpg" alt="client">
-                                 <p class="review-text">"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است."</p>
-                                 <h4>علی حسین زاده</h4>
-                              </div>
-                           </div>
-                           <div class="swiper-slide">
-                              <div class="review-wrap">
-                                 <img src="images/user-02.jpg" alt="client">
-                                 <p class="review-text">"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است."</p>
-                                 <h4>محمد غلام زاده</h4>
-                              </div>
-                           </div>
-                           <div class="swiper-slide">
-                              <div class="review-wrap">
-                                 <img src="images/user-03.jpg" alt="client">
-                                 <p class="review-text">"لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است."</p>
-                                 <h4>هادی مرادی</h4>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-
-                  <!-- Contact Form Section -->
-
-                  <div class="form">
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-12 col-xs-12 text-center">
-                              <h2 class="title">ارتباط با ما</h2>
-                              <hr class="line">
-                           </div>
-                           <div class="col-md-1 col-xs-12"></div>
-                           <div class="col-md-10 col-sm-12 col-xs-12 text-center">
-                              <form id="form">
-                                 <input type="text" class="text" name="name" placeholder="نام" required /><br />
-                                 <input type="text" class="email" name="phone" placeholder="ایمیل" required /><br />
-                                 <textarea class="msg" name="text" placeholder="پیام" required></textarea>
-                                 <button class="btn">ارسال پیام</button>
-                              </form>
-                           </div>
-                           <div class="col-md-1 col-xs-12"></div>
-                        </div>
-                     </div>
-                  </div>
-
-                  <!-- Contact Info Section -->
-
-                  <div class="contact" id="contact">
-                     <div class="container">
-                        <div class="row text-center">
-                           <div class="col-md-4 col-sm-4 col-xs-12">
-                              <div class="phone">
-                                 <i class="fa fa-mobile" aria-hidden="true"></i>
-                                 <h4>۰۹۱۲۳۴۵۶۷۸۹</h4>
-                              </div>
-                           </div>
-                           <div class="col-md-4 col-sm-4 col-xs-12">
-                              <div class="email">
-                                 <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                                 <h4>YOUR@MAIL.COM</h4>
-                              </div>
-                           </div>
-                           <div class="col-md-4 col-sm-4 col-xs-12">
-                              <div class="adress">
-                                 <i class="fa fa-map-marker" aria-hidden="true"></i>
-                                 <h4>تهران،تهران</h4>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-
-                  <!-- Footer Section -->
-
-                  <footer>
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-12 col-xs-12 text-center">
-                              <h4>وب سایت شخصی سمیه اسداللهی</h4>
-                           </div>
-                        </div>
-                     </div>
-                  </footer>
-               </div>
-
-               <img src="images/close.png" class="bl-icon bl-icon-close" alt="close">
-
-            </section>
-
-            <!-- Portfolio Section -->
-
-            <section id="bl-work-section">
-               <div class="bl-box">
-                  <div class="col-md-12 text-center">
-                     <div class="selector">
-                        <h1 class="ah-headline">
-                           <span>من</span>
-                           <span class="ah-words-wrapper">
-                           <b class="is-visible">طراح رابط کاربری</b>
-                           <b>برنامه نویس</b>
-                           <b>فریلنسر</b>
-                           </span>
-						   <span>هستم</span>
-                        </h1>
-                     </div>
-                     <p class="title"> ساکن قاین</p>
-                     <div class="visit-btn"> 
-                        <a class="btn btn-default" href="#" role="button">محصولات من</a>
-                     </div>
-                  </div>
-               </div>
-               <div class="bl-content">
-                  <div class="col-md-12 text-center">
-                     <h2 class="work-title">نمونه کار های من</h2>
-                     <p>برخی از بهترین پروژه های من</p>
-                  </div>
-                  <ul id="bl-work-items" class="text-center">
-                     <li data-panel="panel-1"><a href="#"><img src="images/portfolio-img1.jpg" alt="project" /></a></li>
-                     <li data-panel="panel-2"><a href="#"><img src="images/portfolio-img2.jpg" alt="project" /></a></li>
-                     <li data-panel="panel-3"><a href="#"><img src="images/portfolio-img3.jpg" alt="project" /></a></li>
-                     <li data-panel="panel-4"><a href="#"><img src="images/portfolio-img4.jpg" alt="project" /></a></li>
-                     <li data-panel="panel-5"><a href="#"><img src="images/portfolio-img5.jpg" alt="project" /></a></li>
-                     <li data-panel="panel-6"><a href="#"><img src="images/portfolio-img6.jpg" alt="project" /></a></li>
-                     <li data-panel="panel-7"><a href="#"><img src="images/portfolio-img7.jpg" alt="project" /></a></li>
-                     <li data-panel="panel-8"><a href="#"><img src="images/portfolio-img8.jpg" alt="project" /></a></li>
-                  </ul>
-               </div>
-               <img src="images/close.png" class="bl-icon bl-icon-close" alt="close">
-            </section>
-
-            <!-- Panel items for the works -->
-
-            <div class="bl-panel-items" id="bl-panel-work-items">
-               <div data-panel="panel-1">
-                  <div>
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <img src="images/project.jpg" class="img-fluid" alt="project-image">
-                           </div>
-                           <div class="col-md-6">
-                              <h3>عنوان پروژه</h3>
-                              <h5>کارفرما: شرکت طراحی</h5>
-                              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                              <div class="project-btn"> 
-                                 <a class="btn btn-default" href="index.html" role="button">نمایش پروژه</a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div data-panel="panel-2">
-                  <div>
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <img class="responsive-img" src="images/project.jpg" alt="project" />
-                           </div>
-                           <div class="col-md-6">
-                              <h3>عنوان پروژه</h3>
-                              <h5>کارفرما : شرکت طراحی</h5>
-                              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                              <div class="project-btn"> 
-                                 <a class="btn btn-default" href="index.html" role="button">نمایش پروژه</a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div data-panel="panel-3">
-                  <div>
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <img src="images/project.jpg" alt="project" />
-                           </div>
-                           <div class="col-md-6">
-                              <h3>عنوان پروژه</h3>
-                              <h5>کارفرما : شرکت طراحی</h5>
-                              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                              <div class="project-btn"> 
-                                 <a class="btn btn-default" href="index.html" role="button">نمایش پروژه</a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div data-panel="panel-4">
-                  <div>
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <img src="images/project.jpg" alt="project" />
-                           </div>
-                           <div class="col-md-6">
-                              <h3>عنوان پروژه</h3>
-                              <h5>کارفرما : شرکت طراحی</h5>
-                              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                              <div class="project-btn"> 
-                                 <a class="btn btn-default" href="index.html" role="button">نمایش پروژه</a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div data-panel="panel-5">
-                  <div>
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <img src="images/project.jpg" alt="project" />
-                           </div>
-                           <div class="col-md-6">
-                              <h3>عنوان پروژه</h3>
-                              <h5>کارفرما : شرکت طراحی</h5>
-                              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                              <div class="project-btn"> 
-                                 <a class="btn btn-default" href="index.html" role="button">نمایش پروژه</a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div data-panel="panel-6">
-                  <div>
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <img src="images/project.jpg" alt="project" />
-                           </div>
-                           <div class="col-md-6">
-                              <h3>عنوان پروژه</h3>
-                              <h5>کارفرما : شرکت طراحی</h5>
-                              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                              <div class="project-btn"> 
-                                 <a class="btn btn-default" href="index.html" role="button">نمایش پروژه</a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div data-panel="panel-7">
-                  <div>
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <img src="images/project.jpg" alt="project" />
-                           </div>
-                           <div class="col-md-6">
-                              <h3>عنوان پروژه</h3>
-                              <h5>کارفرما : شرکت طراحی</h5>
-                              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                              <div class="project-btn"> 
-                                 <a class="btn btn-default" href="index.html" role="button">نمایش پروژه</a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div data-panel="panel-8">
-                  <div>
-                     <div class="container">
-                        <div class="row">
-                           <div class="col-md-6">
-                              <img src="images/project.jpg" alt="project" />
-                           </div>
-                           <div class="col-md-6">
-                              <h3>عنوان پروژه</h3>
-                              <h5>کارفرما : شرکت طراحی</h5>
-                              <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است.</p>
-                              <div class="project-btn"> 
-                                 <a class="btn btn-default" href="index.html" role="button">نمایش پروژه</a>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <nav>
-                  <span class="bl-next-work">&gt; پروژه بعدی</span>
-                  <a class="exit" href="index.html">
-                  <img src= "images/close2.png" alt="خروج"> 
-                  </a>
-               </nav>
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
             </div>
-         </div>
-      </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
 
-      <!-- /container -->
-      
-      <script src="js/jquery-3.6.0.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/common.js"></script>
-      <script src="js/jquery.animatedheadline.min.js"></script>
-      <script src="js/jquery.magnific-popup.min.js"></script>
-      <script src="js/particles.js"></script>
-      <script src="js/particles-custom.js"></script>
-      <script src="js/swiper.min.js"></script>
-      <script src="js/custom.js"></script>
-      <script src="js/boxlayout.js"></script>
-      <script>
-         $(function() {
-          Boxlayout.init();
-         });
-      </script>
-   </body>
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/profile.jpg" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">I'm</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Somayyeh asadollahi</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer, Apps Designer, Apps Developer</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="" class="btn btn-outline-light mr-5">Download CV</a>
+                        <button type="button" class="btn-play" data-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/aboutme.webp" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">UI/UX Designer & Web Developer</h3>
+                    <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum. Amet dolor stet lorem diam dolor justo et dolor dolor dolor</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">somayeh asadollahi</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">29 september 1999</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">BS</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-secondary">2 Years</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-secondary">+98 905 184 6944</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">somayeh.a19999@gmail.com</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">qaen</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Available</span></h6></div>
+                    </div>
+                    <a href="" class="btn btn-outline-primary mr-4">Hire Me</a>
+                    <a href="" class="btn btn-outline-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Education</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Master In CSE</h5>
+                            <p class="mb-2"><strong>Cambridge University</strong> | <small>2000 - 2050</small></p>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Master In CSE</h5>
+                            <p class="mb-2"><strong>Cambridge University</strong> | <small>2000 - 2050</small></p>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Master In CSE</h5>
+                            <p class="mb-2"><strong>Cambridge University</strong> | <small>2000 - 2050</small></p>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Expericence</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Web Designer</h5>
+                            <p class="mb-2"><strong>Soft Company</strong> | <small>2000 - 2050</small></p>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Web Designer</h5>
+                            <p class="mb-2"><strong>Soft Company</strong> | <small>2000 - 2050</small></p>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Web Designer</h5>
+                            <p class="mb-2"><strong>Soft Company</strong> | <small>2000 - 2050</small></p>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">HTML</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">CSS</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">PHP</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Javascript</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Angular JS</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Wordpress</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5" id="service">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Design</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Development</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Apps Design</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Apps Development</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">SEO</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Content Creating</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Design</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Development</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">Marketing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-1.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-1.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-2.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-3.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-4.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-5.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-5.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/portfolio-6.jpg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/portfolio-6.jpg" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5" id="testimonial">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Review</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Clients Say</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Blog Start -->
+    <div class="container-fluid pt-5" id="blog">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Blog</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Latest Blog</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-1.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-2.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/blog-3.jpg" alt="">
+                        <div class="blog-date">
+                            <h4 class="font-weight-bold mb-n1">01</h4>
+                            <small class="text-white text-uppercase">Jan</small>
+                        </div>
+                    </div>
+                    <h5 class="font-weight-medium mb-4">Rebum lorem no eos ut ipsum diam tempor sed rebum elitr ipsum</h5>
+                    <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                        required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="#">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>
+            </div>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Domain Name</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="#">Somaye</a>
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
 </html>
-
